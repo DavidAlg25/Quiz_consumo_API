@@ -12,7 +12,7 @@ import userApiRoutes from '../routes/apiUser.routes.js';
 import moduleRoutes from '../routes/module.routes.js';
 import profileRoutes from '../routes/profile.routes.js';
 import roleModuleRoutes from '../routes/roleModule.routes.js';
-import authRoutes from '../routes/auth.routes.js';
+
 
 // Create an instance of the Express application
 const app = express();
@@ -30,7 +30,7 @@ app.use(NAME_API, userApiRoutes);
 app.use(NAME_API, moduleRoutes);
 app.use(NAME_API, profileRoutes);
 app.use(NAME_API, roleModuleRoutes);
-app.use(NAME_API, authRoutes);
+
 
 // Handle 404 errors for undefined routes
 app.use((req, res, next) => {

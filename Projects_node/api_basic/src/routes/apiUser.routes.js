@@ -10,10 +10,11 @@ const router = Router();
 const apiName = '/apiUser';
 
 router.route(apiName)
-  .get(showApiUser)  // Get all user
-  .post(addApiUser); // Add user
+  .get(showApiUser);
+   // Get all user
+  router.route(`${apiName}/register`).post(addApiUser); // Add user
 
-router.route('/apiUserLogin')
+router.route(`${apiName}/login`)
   .post(loginApiUser); // Login
 
   router.route('/apiUserVerifyToken')

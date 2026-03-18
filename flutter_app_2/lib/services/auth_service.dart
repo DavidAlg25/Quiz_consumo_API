@@ -4,9 +4,9 @@ import 'package:http/http.dart' as http;
 
 class AuthService {
   // Para Flutter Web - usa localhost:3000
-  final String baseUrl = 'http://localhost:3000/api_v1/auth';
+  final String baseUrl = 'http://localhost:3000/api_v1/apiUser';
 
-  Future<Map<String, dynamic>> register(Map<String, dynamic> userData) async {
+  Future<Map<String, dynamic>> addApiUser(Map<String, dynamic> userData) async {
     try {
       print('🌐 Intentando conectar a: $baseUrl/register');
       
