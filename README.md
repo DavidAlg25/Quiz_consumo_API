@@ -1,4 +1,4 @@
-# Proyecto Login Flutter - Evaluación
+# Proyecto Login Flutter - Evaluación (Registro, Login, Home)
 
 Este proyecto consiste en una aplicación móvil desarrollada en **Flutter** que se conecta a una **API REST** creada con **Node.js** y **MySQL**.  
 La aplicación permite registrar nuevos usuarios, iniciar sesión y acceder a una pantalla de inicio con contenido aleatorio.
